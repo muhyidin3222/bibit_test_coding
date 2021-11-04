@@ -1,0 +1,36 @@
+{
+  "name": "bibit_test_code",
+  "version": "0.0.1",
+  "description": "bibit_test_code",
+  "main": "server.js",
+  "scripts": {
+    "start:task_2": "nodemon task_2/server.js --ignore session --ignore storages --ignore bin --ignore public",
+    "start:task_3": "nodemon task_3/index.js",
+    "start:task_4": "nodemon task_4/index.js",
+    "test:task_2": "mocha task_2/test/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "jest": "^27.3.1",
+    "moment": "^2.23.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.12.0",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.21.3",
+    "sequelize-cli": "^5.5.1",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.1.3",
+    "nodemon": "^1.19.2"
+  }
+}
